@@ -3,7 +3,6 @@ package com.example.tensorhw7
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.view.isGone
-import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import com.example.tensorhw7.databinding.ActivityMainBinding
 
@@ -15,8 +14,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.animationsButton.setOnClickListener {
-            binding.animationsButton.isGone = true
+        binding.toAnimationsButton.setOnClickListener {
+            binding.toAnimationsButton.isGone = true
             addFragment(AnimationsFragment())
         }
     }
@@ -30,6 +29,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onBackPressed() {
         super.onBackPressed()
-        binding.animationsButton.isGone = false
+        binding.toAnimationsButton.isGone = false
     }
 }
