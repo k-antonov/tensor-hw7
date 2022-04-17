@@ -4,4 +4,11 @@
     <dimen name="button_text_size">24dp</dimen>
     <dimen name="button_min_height">80dp</dimen>
     <dimen name="button_min_width">256dp</dimen>
+    <dimen name="square_before">40dp</dimen>
+    <dimen name="square_after">60dp</dimen>
+    <dimen name="rectangle_before">20dp</dimen>
+    <dimen name="rectangle_after">120dp</dimen>
+    <dimen name="outer_padding">12dp</dimen>
+    <dimen name="inner_margin">8dp</dimen>
+    <dimen name="bottom_margin">64dp</dimen>
 </resources>
