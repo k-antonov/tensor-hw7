@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">TensorHW7</string>
     <string name="animations">Animations</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="press_me">Нажми на меня!</string>
 </resources>
